@@ -6,3 +6,7 @@
 Demonstation of brain-even installation and play:
    
     https://asciinema.org/a/536099
+
+Demonstation of brain-calc play:
+
+    https://asciinema.org/a/536410
