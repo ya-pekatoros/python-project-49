@@ -22,4 +22,3 @@ def common_games_logic(question, correct_answer, wins_count):
         return False
 
     return True
-    
