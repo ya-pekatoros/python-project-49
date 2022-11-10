@@ -3,10 +3,14 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/13042ca6a604e18dfbc9/maintainability)](https://codeclimate.com/github/ya-pekatoros/python-project-49/maintainability)
 
-Demonstation of brain-even installation and play:
+Demonstration of brain-even installation and play:
    
-    https://asciinema.org/a/536099
+[![asciicast](https://asciinema.org/a/536099.svg)](https://asciinema.org/a/536099)
 
-Demonstation of brain-calc play:
+Demonstration of brain-calc play:
 
-    https://asciinema.org/a/536410
+[![asciicast](https://asciinema.org/a/536410.svg)](https://asciinema.org/a/536410)
+
+Demonstration of brain-gcd play:
+
+[![asciicast](https://asciinema.org/a/536718.svg)](https://asciinema.org/a/536718)

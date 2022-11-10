@@ -1,16 +1,13 @@
 #! /usr/bin/env python3
 ''' Initialization of the game brain-calc from bash'''
 import sys
-
-from brain_games.cli import welcome_user
-
-from brain_games.games.calc import game_calc
+from brain_games.games_logic import run_game
+from brain_games.games import calc
 
 
 def main():
     ''' Initialization with greetings'''
-    welcome_user()
-    game_calc()
+    run_game(calc)
     return sys.exit()
 
 

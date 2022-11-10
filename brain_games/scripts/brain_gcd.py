@@ -1,13 +1,13 @@
 #! /usr/bin/env python3
-''' Initialization of the game brain-even from bash'''
+''' Initialization of the game brain-gcd from bash'''
 import sys
 from brain_games.games_logic import run_game
-from brain_games.games import even
+from brain_games.games import gcd
 
 
 def main():
     ''' Initialization with greetings'''
-    run_game(even)
+    run_game(gcd)
     return sys.exit()
 
 
