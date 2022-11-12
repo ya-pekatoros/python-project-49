@@ -13,8 +13,12 @@ def get_game():
     question = random.randrange(LOWER_LIMIT, TOP_LIMIT)
 
     correct_answer = 'yes'
-    for i in range(2, question - 1):
-        if question % i == 0:
-            correct_answer = 'no'
+
+    if question == 1:
+        correct_answer = 'no'
+    else:
+        for i in range(2, question):
+            if question % i == 0:
+                correct_answer = 'no'
 
     return question, str(correct_answer)
