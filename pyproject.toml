@@ -1,9 +1,18 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.6.0.dev1"
-description = ""
+description = "This package consists of 5 games to develop your math skills."
 authors = ["Yaroslav Pekatoros <y.pekatoros@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/ya-pekatoros/python-project-49"
+classifiers = [
+    "Topic :: Development Status :: 4 - Beta",
+	"Topic :: Environment :: Console",
+	"Topic :: Operating System :: POSIX :: Linux",
+	"Topic :: Programming Language :: Python :: 3.10",
+	"Topic :: Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 packages = [
  	{include = "brain_games"},
 ]

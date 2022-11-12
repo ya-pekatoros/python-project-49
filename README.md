@@ -3,22 +3,60 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/13042ca6a604e18dfbc9/maintainability)](https://codeclimate.com/github/ya-pekatoros/python-project-49/maintainability)
 
-Demonstration of brain-even installation and play:
-   
+# Description
+
+Hello!
+
+This package consists of 5 games to develop your math skills. Each game runs from bash with special commands below. All instruction included in bash replies.
+
+If your answer isn't correct the game will be stopped. You will have 3 rounds.
+
+# Requirenments
+
+* Linux OS
+* python = "^3.10"
+* pip "22.3.1"
+* prompt = "^0.4.1"
+
+# Installation
+
+    ```console
+pip install --user git+https://github.com/ya-pekatoros/python-project-49
+``` 
+
+# Commands and demonstrations
+
+### Demonstration of brain-even installation and play:
+
+    ```console
+brain-even
+```   
 [![asciicast](https://asciinema.org/a/536099.svg)](https://asciinema.org/a/536099)
 
-Demonstration of brain-calc play:
+### Demonstration of brain-calc play:
 
+    ```console
+brain-calc
+```  
 [![asciicast](https://asciinema.org/a/536410.svg)](https://asciinema.org/a/536410)
 
-Demonstration of brain-gcd play:
+### Demonstration of brain-gcd play:
 
+    ```console
+brain-gcd
+```
 [![asciicast](https://asciinema.org/a/536718.svg)](https://asciinema.org/a/536718)
 
-Demonstration of brain-progression play:
+### Demonstration of brain-progression play:
 
+    ```console
+brain-prgression
+```
 [![asciicast](https://asciinema.org/a/537109.svg)](https://asciinema.org/a/537109)
 
-Demonstration of brain-prime play:
+### Demonstration of brain-prime play:
 
+    ```console
+brain-prime
+```
 [![asciicast](https://asciinema.org/a/537160.svg)](https://asciinema.org/a/537160)
