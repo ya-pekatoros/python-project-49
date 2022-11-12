@@ -14,3 +14,7 @@ Demonstration of brain-calc play:
 Demonstration of brain-gcd play:
 
 [![asciicast](https://asciinema.org/a/536718.svg)](https://asciinema.org/a/536718)
+
+Demonstration of brain-progression play:
+
+[![asciicast](https://asciinema.org/a/537109.svg)](https://asciinema.org/a/537109)
