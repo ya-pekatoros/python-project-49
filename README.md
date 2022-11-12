@@ -20,43 +20,31 @@ If your answer isn't correct the game will be stopped. You will have 3 rounds.
 
 # Installation
 
-    ```console
-pip install --user git+https://github.com/ya-pekatoros/python-project-49
-``` 
+    pip install --user git+https://github.com/ya-pekatoros/python-project-49
 
 # Commands and demonstrations
 
 ### Demonstration of brain-even installation and play:
 
-    ```console
-brain-even
-```   
+    brain-even  
 [![asciicast](https://asciinema.org/a/536099.svg)](https://asciinema.org/a/536099)
 
 ### Demonstration of brain-calc play:
 
-    ```console
-brain-calc
-```  
+    brain-calc 
 [![asciicast](https://asciinema.org/a/536410.svg)](https://asciinema.org/a/536410)
 
 ### Demonstration of brain-gcd play:
 
-    ```console
-brain-gcd
-```
+    brain-gcd
 [![asciicast](https://asciinema.org/a/536718.svg)](https://asciinema.org/a/536718)
 
 ### Demonstration of brain-progression play:
 
-    ```console
-brain-prgression
-```
+    brain-prgression
 [![asciicast](https://asciinema.org/a/537109.svg)](https://asciinema.org/a/537109)
 
 ### Demonstration of brain-prime play:
 
-    ```console
-brain-prime
-```
+    brain-prime
 [![asciicast](https://asciinema.org/a/537160.svg)](https://asciinema.org/a/537160)
