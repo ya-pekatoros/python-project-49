@@ -18,3 +18,7 @@ Demonstration of brain-gcd play:
 Demonstration of brain-progression play:
 
 [![asciicast](https://asciinema.org/a/537109.svg)](https://asciinema.org/a/537109)
+
+Demonstration of brain-prime play:
+
+[![asciicast](https://asciinema.org/a/537160.svg)](https://asciinema.org/a/537160)
