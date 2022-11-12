@@ -24,7 +24,7 @@ def get_game():
     for i in range(length):
         progression.append(start + step * i)
 
-    correct_answer = random.choice(progression)
+    correct_answer = random.choice(progression[1:])
     missing_index = progression.index(correct_answer)
     question = (
         f"{' '.join(map(str, progression[:missing_index]))}"
