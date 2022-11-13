@@ -19,6 +19,7 @@ def make_progression(start, step, length):
         progression.append(start + step * i)
     return progression
 
+
 def get_game():
     ''' Main game-function of game-progression.
         Describes the essence of the game'''

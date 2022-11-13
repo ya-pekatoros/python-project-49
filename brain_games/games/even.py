@@ -7,6 +7,7 @@ TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 LOWER_LIMIT = 1
 TOP_LIMIT = 100
 
+
 def is_even(number):
     '''Returns True if given number is even'''
     return number % 2 == 0

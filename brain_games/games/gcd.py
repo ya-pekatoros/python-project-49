@@ -9,14 +9,14 @@ TOP_LIMIT = 100
 
 
 def gcd(first, second):
-        '''Find a gcd of first and second numbers. I know about existing of
-        math.gcd, but want to try recursive function'''
-        if first == second:
-            return first
-        elif first > second:
-            return gcd(first - second, second)
-        else:
-            return gcd(first, second - first)
+    '''Find a gcd of first and second numbers. I know about existing of
+    math.gcd, but want to try recursive function'''
+    if first == second:
+        return first
+    elif first > second:
+        return gcd(first - second, second)
+    else:
+        return gcd(first, second - first)
 
 
 def get_game():
