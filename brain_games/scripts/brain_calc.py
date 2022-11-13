@@ -6,7 +6,7 @@ from brain_games.games import calc
 
 
 def main():
-    ''' Initialization with greetings'''
+    ''' Game call'''
     run_game(calc)
     return sys.exit()
 

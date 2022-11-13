@@ -8,17 +8,21 @@ LOWER_LIMIT = 1
 TOP_LIMIT = 100
 
 
+def is_prime(number):
+    '''Returns True if given number is prime'''
+    if number == 1:
+        return False
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+    return True
+
+
 def get_game():
     ''' Main game-function of game-prime. Describes the essence of the game'''
     question = random.randrange(LOWER_LIMIT, TOP_LIMIT)
-
-    correct_answer = 'yes'
-
-    if question == 1:
-        correct_answer = 'no'
+    if is_prime(question):
+        correct_answer = "yes"
     else:
-        for i in range(2, question):
-            if question % i == 0:
-                correct_answer = 'no'
-
+        correct_answer = "no"
     return question, str(correct_answer)

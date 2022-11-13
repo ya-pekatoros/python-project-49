@@ -20,7 +20,17 @@ If your answer isn't correct the game will be stopped. You will have 3 rounds.
 
 # Installation
 
+### You can use pip and install package from git:
+
     pip install --user git+https://github.com/ya-pekatoros/python-project-49
+
+### Or you can clone rep and use poetry (python package management tool). Some shortcats to do it:
+
+    git clone https://github.com/ya-pekatoros/python-project-49.git
+    cd python-project-49
+    make install
+    make build
+    package-install
 
 # Commands and demonstrations
 

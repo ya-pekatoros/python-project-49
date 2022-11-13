@@ -6,7 +6,7 @@ from brain_games.games import even
 
 
 def main():
-    ''' Initialization with greetings'''
+    ''' Game call'''
     run_game(even)
     return sys.exit()
 
