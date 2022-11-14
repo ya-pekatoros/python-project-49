@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 ''' Main games logics module'''
 
 import prompt

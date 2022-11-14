@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 '''Game-prime logic'''
 
 import random

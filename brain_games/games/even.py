@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 '''Game-even logic'''
 
 import random

@@ -1,4 +1,3 @@
-#! /usr/bin/env python3
 '''Game-progression logic'''
 
 import random
@@ -20,8 +19,8 @@ def make_progression(start, step, length):
     return progression
 
 
-def generate_question(progression, missing_index):
-    progression[missing_index] = '..'
+def generate_question(progression, correct_answer):
+    progression[progression.index(correct_answer)] = '..'
     return ' '.join(map(str, progression))
 
 
@@ -36,6 +35,5 @@ def get_game():
     length = random.randrange(LOW_LENGTH_LIMIT, TOP_LENGTH_LIMIT)
     progression = make_progression(start, step, length)
     correct_answer = random.choice(progression[1:])
-    missing_index = progression.index(correct_answer)
-    question = generate_question(progression, missing_index)
+    question = generate_question(progression, correct_answer)
     return question, str(correct_answer)
