@@ -4,7 +4,7 @@
 import random
 
 TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
-LOWER_LIMIT = 1
+LOW_LIMIT = 1
 TOP_LIMIT = 100
 
 
@@ -15,7 +15,7 @@ def is_even(number):
 
 def get_game():
     ''' Main game-function of game-even. Describes the essence of the game'''
-    question = random.randrange(LOWER_LIMIT, TOP_LIMIT)
+    question = random.randrange(LOW_LIMIT, TOP_LIMIT)
     if is_even(question):
         correct_answer = "yes"
     else:

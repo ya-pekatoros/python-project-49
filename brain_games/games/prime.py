@@ -4,7 +4,7 @@
 import random
 
 TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-LOWER_LIMIT = 1
+LOW_LIMIT = 1
 TOP_LIMIT = 100
 
 
@@ -20,7 +20,7 @@ def is_prime(number):
 
 def get_game():
     ''' Main game-function of game-prime. Describes the essence of the game'''
-    question = random.randrange(LOWER_LIMIT, TOP_LIMIT)
+    question = random.randrange(LOW_LIMIT, TOP_LIMIT)
     if is_prime(question):
         correct_answer = "yes"
     else:

@@ -4,7 +4,7 @@
 import random
 
 TASK = 'Find the greatest common divisor of given numbers.'
-LOWER_LIMIT = 1
+LOW_LIMIT = 1
 TOP_LIMIT = 100
 
 
@@ -21,8 +21,8 @@ def gcd(first, second):
 
 def get_game():
     ''' Main game-function of game-gcd. Describes the essence of the game'''
-    first_number = random.randrange(LOWER_LIMIT, TOP_LIMIT)
-    second_number = random.randrange(LOWER_LIMIT, TOP_LIMIT)
+    first_number = random.randrange(LOW_LIMIT, TOP_LIMIT)
+    second_number = random.randrange(LOW_LIMIT, TOP_LIMIT)
     question = f'{first_number} {second_number}'
     correct_answer = gcd(first_number, second_number)
     return question, str(correct_answer)
